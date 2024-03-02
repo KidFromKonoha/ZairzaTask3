@@ -1,0 +1,168 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(mountain0.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+    gap: 10px;
+    word-wrap: break-word;
+
+}
+
+#text1{
+    justify-content: center;
+    letter-spacing: 0.7ch;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 400%;
+    color:rgba(111, 255, 16, 0.963);
+    text-align: center;
+    display: block;
+    word-spacing:1ch ;
+    font-weight: 600;
+    text-shadow: 2px 2px 7px black;
+}
+#text2{
+    align-items: center;
+    text-align: center;
+    display: block ;
+    font-size: 2vw;
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 1px olivedrab;
+}
+
+.btf{
+    display:block;
+    margin-top: 3%;
+    padding : 0;
+    height : 9%;
+    width : 13% ;
+    border-radius: 15px;
+    font-size: 2vw;
+    color :white;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: lime;
+    &:hover,active{
+        transition: all 0.2s ease-in 0s ;
+        /* transition-property: all;
+        transition-duration: 1s; */
+        border-color: cornsilk;
+        transform : scale(1.1,1.1);
+        background-color: chartreuse;
+    }
+}
+
+ h3{
+    display: inline-block;
+    text-align: center;
+    margin-top:20px;
+    margin-bottom: 0%;
+    font-size: 4vw;
+    align-self: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    =
+} 
+
+.spage{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.news {
+    background-color: white ;
+    display: flex;
+    flex-direction: row;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    /* align-content: space-evenly; */
+}
+
+
+
+img{
+    height: 250px;
+    max-width: 100%;
+    
+    padding: 0px;
+    
+}
+
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.button2{
+    display: inline-block;
+    /* align-self: end; */
+    order:100;
+    border-radius: 0%;
+
+}
+.card{
+    margin:20px 40px 20px 20px ;
+    &:hover{
+        transform : scale(1.1,1.1);
+        transition: all 0.3s linear 0s;
+    }
+}
+.buttondiv{
+    display: flex;
+    justify-content: center;
+}
+
+.tpage{
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: rgb(255, 255, 255);
+    background-image: url("leafbackground1.jpg");
+    background-size: cover;
+    color:darkgreen ;
+    display: flex;
+     justify-content: end;
+    align-items: center; 
+}
+
+.box{
+    border: 2px solid black;
+    height: 50vh;
+    width:30vw;
+    display: flexbox;
+    flex-wrap: wrap;
+    align-self: center;
+    color:orangered;
+    margin-right: 10%;
+    justify-content: end;
+    text-align: end;
+    text-shadow: 2px 2px 5px ;
+    
+}
+.box h1{
+    color: rgb(3, 159, 65);
+    padding-right: 20%;
+}
+.box p{
+    color: lightslategrey;
+}
